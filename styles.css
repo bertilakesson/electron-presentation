@@ -1,0 +1,39 @@
+body {
+    background-color: rgb(197, 197, 197);
+}
+
+div#content {
+    height: 80vh;
+}
+h1 {
+    text-align: center;
+    font-size: 70pt;
+    /* color: blue; */
+}
+
+h2 {
+    font-size: 40pt;
+}
+
+li {
+    margin-left: 1cm;
+    /* transition: all 4s ease-out;
+    
+    /*height: 2em;*/
+}
+li.fade {
+    opacity: 0;
+    animation: fade 0.5s ease-in-out forwards;
+}
+
+@keyframes fade {
+	100% { opacity: 1; }
+}
+
+#footer {
+    position:fixed;
+    left:0px;
+    bottom:0px;
+    height:30px;
+    width:100%;
+ }
